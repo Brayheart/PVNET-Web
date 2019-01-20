@@ -11,7 +11,6 @@ con.connect(function(err) {
     if (err) throw err;
     con.query("SELECT * FROM TestClasses WHERE instructor='Doug';", function (err, result, fields) {
         if (err) throw err;
-        alert(result)
         console.log(result);
     });
 });
