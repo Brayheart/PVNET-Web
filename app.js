@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var testtable = require('./routes/mysql.js');
 
 var app = express();
 
@@ -37,5 +38,18 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+app.use(
+    connection(mysql,{
 
+        host: 'localhost',
+        user: 'classUser',
+        password : 'P00bapop!',
+        database:'TestDatabase'
+    },'pool')
+);
+app.get('/testtable', testtable.list);
+app.use(app.router);
+http.createServer(app).listen(app.get('port'), function(){
+    console.log('Express server listening on port ' + app.get('port'));
+});
 module.exports = app;
