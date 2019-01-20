@@ -9,7 +9,25 @@
     <p>Welcome to <%= title %></p>
     <% include Components/scripts.ejs %>
     <script type="text/javascript">
-        document.write(result);
+
+        var mysql = require('mysql');
+        var r = "ss";
+        var con = mysql.createConnection({
+            host: "localhost",
+            user: "classUser",
+            password: "P00bapop!",
+            database: "TestDatabase"
+        });
+
+        con.connect(function(err) {
+            if (err) throw err;
+            con.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function (err, result, fields) {
+                if (err) throw err;
+                console.log(result);
+                r = result;
+            });
+        });
+        document.write(r);
     </script>
 
   </body>
