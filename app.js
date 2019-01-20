@@ -38,15 +38,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.use(
-    connection(mysql,{
 
-        host: 'localhost',
-        user: 'classUser',
-        password : 'P00bapop!',
-        database:'TestDatabase'
-    },'pool')
-);
+
 app.get('/testtable', testtable.list);
 app.use(app.router);
 http.createServer(app).listen(app.get('port'), function(){
