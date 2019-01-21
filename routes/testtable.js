@@ -17,7 +17,7 @@ con.connect(function(err) {
     });
 });
 
-app.get('/',  function(req, res){
+exports.list = function(req, res){
 
     req.getConnection(function(err,connection){
         var query = connection.query("SELECT * FROM SummerClasses WHERE instructor='Doug';",function(err,rows){
@@ -27,4 +27,4 @@ app.get('/',  function(req, res){
             res.render('index',{page_title:"Test Table",data:rows});
         });
     });
-});
+};
