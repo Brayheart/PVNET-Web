@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
     var filter = "";
 
 
-    db.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function(err, rows) {
+    req.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function(err, rows) {
         if (err) {
             console.log(err);
         }
