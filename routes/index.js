@@ -4,7 +4,6 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
-    var name = req.query.id;
     var user = "";
     var user = req.query.user;
     var filter = "";
@@ -13,13 +12,13 @@ router.get('/', function(req, res, next) {
         filter = 'WHERE instructor = ?';
     }
 
-    db.query("SELECT * FROM SummerClasses ",filter,name,";",function(err, rows) {
+    db.query("SELECT * FROM SummerClasses ",filter,user,";",function(err, rows) {
         if (err) {
             console.log(err);
         }
 
         // use index.ejs
-        res.render('index',{page_title:"Test Table",data:rows, user: name});
+        res.render('index',{page_title:"Test Table",data:rows, user: user});
     });
 
 });
