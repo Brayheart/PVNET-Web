@@ -5,7 +5,7 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var user = "classUser";
+    var instructor = "";
     var user = req.query.user;
 
     var filter = "";
@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
         filter = 'WHERE instructor = ?';
     }
 
-    db.query("SELECT * FROM SummerClasses ",filter, function(err, rows) {
+    db.query("SELECT * FROM SummerClasses ",filter, instructor,function(err, rows) {
         if (err) {
             console.log(err);
         }
