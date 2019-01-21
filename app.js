@@ -18,11 +18,11 @@ var con = mysql.createConnection({
 });
 
 con.connect(function(err) {
-    if (err) throw err;
-    con.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function (err, result, fields) {
-        if (err) throw err;
-        console.log(result);
-    });
+    if (err) {
+        console.log('connecting error');
+        return;
+    }
+    console.log('connecting success');
 });
 
 var app = express();
