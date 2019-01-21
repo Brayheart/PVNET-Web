@@ -5,16 +5,15 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var instructor = "";
     var user = "";
     var user = req.query.user;
     var filter = "";
 
-    if (user) {
-        filter = 'WHERE instructor = ?';
-    }
+    // if (user) {
+    //     filter = 'WHERE instructor = ?';
+    // }
 
-    db.query("SELECT * FROM SummerClasses ",filter, user,function(err, rows) {
+    db.query("SELECT * FROM SummerClasses WHERE instructor='Doug';",function(err, rows) {
         if (err) {
             console.log(err);
         }
@@ -26,3 +25,9 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+// <h1>Classes - List</h1>
+// <div class="search">
+//     <label>instructor：</label>
+// <input type="text" name="suserid" value="<%=user  %>" placeholder="input instructor name">
+//     <input type="button" name="sSearch" value="Search" class="btn" onclick="Search();">
+//     </div>
