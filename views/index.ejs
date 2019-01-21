@@ -4,9 +4,25 @@
 <table border="1" cellpadding="7" cellspacing="7">
   <tr>
     <th width="50px">No</th>
-    <th>Field 1</th>
-    <th>Field 2</th>
-    <th>Field 3</th>
+    <th>Class_ID</th>
+    <th>Class_Name</th>
+    <th>Department</th>
+    <th>Class_Number</th>
+    <th>Class_Section</th>
+    <th>Activate</th>
+    <th>Instructor</th>
+    <th>Internal_Notes</th>
+    <th>Class_Description</th>
+    <th>Additional_Info</th>
+    <th>Prerequisite</th>
+    <th>Start_Week</th>
+    <th>End_Week</th>
+    <th>Age_Start</th>
+    <th>Age_End</th>
+    <th>Consummables_Fee</th>
+    <th>Hourly_Fee</th>
+    <th>Registration_Fee</th>
+
   </tr>
   <% if(data.length){
   for(var i = 0;i < data.length;i++) { %>
@@ -21,6 +37,15 @@
     <td><%=data[i].Instructor%></td>
     <td><%=data[i].Internal_Notes%></td>
     <td><%=data[i].Class_Description%></td>
+    <td><%=data[i].Additional_Info%></td>
+    <td><%=data[i].Prerequisite%></td>
+    <td><%=data[i].Start_Week%></td>
+    <td><%=data[i].End_Week%></td>
+    <td><%=data[i].Age_Start%></td>
+    <td><%=data[i].Age_End%></td>
+    <td><%=data[i].Consummables_Fee%></td>
+    <td><%=data[i].Hourly_Fee%></td>
+    <td><%=data[i].Registration_Fee%></td>
   </tr>
   <% }
   }else{ %>
