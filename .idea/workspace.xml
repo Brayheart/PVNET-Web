@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/views/Components/scripts.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/Components/scripts.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,7 +28,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="scripts.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scripts.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Components/scripts.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/mysql.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -119,13 +117,13 @@
       <list>
         <option value="$PROJECT_DIR$/routes/mysqlTest.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.ejs" />
-        <option value="$PROJECT_DIR$/public/javascripts/mysql.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/testtable.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/testtable.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/Components/scripts.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/mysql.js" />
       </list>
     </option>
   </component>
@@ -243,15 +241,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548022029136</updated>
-      <workItem from="1548022034540" duration="7115000" />
+      <workItem from="1548022034540" duration="7381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7115000" />
+    <option name="totallyTimeSpent" value="7381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="283" y="23" width="1318" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31919816" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -345,17 +344,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/mysql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Components/scripts.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>

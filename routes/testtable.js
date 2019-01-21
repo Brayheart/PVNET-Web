@@ -1,3 +1,20 @@
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "classUser",
+    password: "P00bapop!",
+    database: "TestDatabase"
+});
+
+con.connect(function(err) {
+    if (err) throw err;
+    con.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function (err, result, fields) {
+        if (err) throw err;
+        console.log(result);
+    });
+});
+
 exports.list = function(req, res){
 
     req.getConnection(function(err,connection){
