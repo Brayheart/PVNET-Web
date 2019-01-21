@@ -1,5 +1,5 @@
 var mysql = require('mysql');
-var app = express();
+var app = express('express');
 app.set('view engine', 'ejs');
 
 var con = mysql.createConnection({
