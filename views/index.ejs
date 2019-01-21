@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 
-<html><body>
+<html>
+<head>
+  <script>
+  function Search() {
+
+  var userid = document.getElementsByName('suserid')[0].value;
+  window.location.href = "/?user=" + userid;;
+  }
+    </script>
+</head>
+<body>
 <table border="1" cellpadding="7" cellspacing="7">
   <tr>
     <th width="50px">No</th>
@@ -54,4 +64,5 @@
   </tr>
   <% } %>
 </table>
-</body></html>
+</body>
+</html>
