@@ -22,7 +22,7 @@ exports.list = function(req, res){
             if(err)
                 console.log("Error Selecting : %s ",err );
 
-            res.render('testtable',{page_title:"Test Table",data:rows});
+            res.render('index',{page_title:"Test Table",data:rows});
         });
     });
 };
