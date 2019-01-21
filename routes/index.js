@@ -9,10 +9,10 @@ router.get('/', function(req, res, next) {
     var filter = "";
 
     if (user) {
-        filter = 'WHERE instructor = ?';
+        filter = 'WHERE instructor = ';
     }
 
-    db.query("SELECT * FROM SummerClasses "+ filter,user,";",function(err, rows) {
+    db.query("SELECT * FROM SummerClasses "+ filter+"'"+user+"'"+";",function(err, rows) {
         if (err) {
             console.log(err);
         }
