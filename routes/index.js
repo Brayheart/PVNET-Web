@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
     var data = "";
 
     var instructor = "";
-    var user = ""
+    var user = "";
     var user = req.query.user;
-
+    var filter = "";
 
     if (user) {
         filter = 'WHERE instructor = ?';
