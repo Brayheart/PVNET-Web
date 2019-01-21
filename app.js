@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.get('/testtable', testtable.list);
+//app.get('/testtable', testtable.list);
 
 module.exports = app;
