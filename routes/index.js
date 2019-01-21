@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
         }
 
         // use index.ejs
-        res.render('index',{page_title:"Test Table",data:rows});
+        res.render('index',{page_title:"Test Table",data:rows, user: user});
     });
 
 });
