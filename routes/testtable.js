@@ -1,6 +1,6 @@
 var mysql = require('mysql');
-var app = require('express');
-app.set('view engine', 'ejs');
+var express = require('express');
+var app = express();
 
 var con = mysql.createConnection({
     host: "localhost",
@@ -17,7 +17,7 @@ con.connect(function(err) {
     });
 });
 
-exports.list = function(req, res){
+app.list = function(req, res){
 
     req.getConnection(function(err,connection){
         var query = connection.query("SELECT * FROM SummerClasses WHERE instructor='Doug';",function(err,rows){
