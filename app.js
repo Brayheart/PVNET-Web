@@ -8,6 +8,22 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testtable = require('./routes/testtable');
 
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "classUser",
+    password: "P00bapop!",
+    database: "TestDatabase"
+});
+
+con.connect(function(err) {
+    if (err) throw err;
+    con.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", function (err, result, fields) {
+        if (err) throw err;
+        console.log(result);
+    });
+});
 
 var app = express();
 
