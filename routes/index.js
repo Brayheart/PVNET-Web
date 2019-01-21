@@ -9,11 +9,11 @@ router.get('/', function(req, res, next) {
     var user = req.query.user;
     var filter = "";
 
-    // if (user) {
-    //     filter = 'WHERE instructor = ?';
-    // }
+    if (user) {
+        filter = 'WHERE instructor = ';
+    }
 
-    db.query("SELECT * FROM SummerClasses WHERE instructor='Yuichi';",function(err, rows) {
+    db.query("SELECT * FROM SummerClasses ",filter,"'",user,"';",function(err, rows) {
         if (err) {
             console.log(err);
         }
