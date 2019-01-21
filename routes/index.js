@@ -6,15 +6,15 @@ router.get('/', function(req, res, next) {
     var data = "";
 
     var instructor = "";
+    var user = ""
     var user = req.query.user;
 
-    var filter = "";
 
     if (user) {
         filter = 'WHERE instructor = ?';
     }
 
-    db.query("SELECT * FROM SummerClasses ",filter, instructor,function(err, rows) {
+    db.query("SELECT * FROM SummerClasses ",filter, user,function(err, rows) {
         if (err) {
             console.log(err);
         }
