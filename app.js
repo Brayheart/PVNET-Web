@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-//var testtable = require('./routes/mysql');
+var testtable = require('./javascripts/mysql.js');
 
 var app = express();
 
@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
 });
 
 
-//app.get('/testtable', testtable.list);
+app.get('/testtable', testtable.list);
 
 module.exports = app;
