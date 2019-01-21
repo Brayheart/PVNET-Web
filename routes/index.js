@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
         filter = 'WHERE instructor = ?';
     }
 
-    db.query("SELECT * FROM SummerClasses ",filter,name,function(err, rows) {
+    db.query("SELECT * FROM SummerClasses ",filter,name,";",function(err, rows) {
         if (err) {
             console.log(err);
         }
