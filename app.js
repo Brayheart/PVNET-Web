@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var testtable = require('./routes/testtable');
 
 var mysql = require('mysql');
 
@@ -57,6 +56,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.get('/testtable', testtable.list);
 
 module.exports = app;
