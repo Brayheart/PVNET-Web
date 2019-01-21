@@ -1,4 +1,6 @@
 var mysql = require('mysql');
+var app = express();
+app.set('view engine', 'ejs');
 
 var con = mysql.createConnection({
     host: "localhost",
@@ -22,7 +24,7 @@ exports.list = function(req, res){
             if(err)
                 console.log("Error Selecting : %s ",err );
 
-            res.render('/views/index.ejs',{page_title:"Test Table",data:rows});
+            res.render('index',{page_title:"Test Table",data:rows});
         });
     });
 };
