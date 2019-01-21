@@ -14,13 +14,25 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var user = "";
-    var user = req.query.user;
+    var user = "classUser";
 
     var filter = "";
     if (user) {
         filter = 'WHERE userid = ?';
     }
+
+    db.query("SELECT * FROM SummerClasses WHERE instructor='Doug';", user, function(err, rows) {
+        if (err) {
+            console.log(err);
+        }
+        var data = rows;
+
+        // use index.ejs
+        res.render('index',{page_title:"Test Table",data:rows});
+    });
+
+});
+exports.list = function(req, res){
 
     req.getConnection(function(err,connection){
         var query = connection.query("SELECT * FROM SummerClasses WHERE instructor='Doug';",function(err,rows){
@@ -30,7 +42,5 @@ router.get('/', function(req, res, next) {
             res.render('index',{page_title:"Test Table",data:rows});
         });
     });
-
-});
-
+};
 module.exports = router;
