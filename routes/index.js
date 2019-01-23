@@ -74,7 +74,7 @@ router.post('/userAdd', function(req, res, next) {
             };
 
             //console.log(sql);
-            var qur = db.query('INSERT INTO account SET ?', sql, function(err, rows) {
+            var qur = db.query('INSERT INTO SummerClasses SET ?', sql, function(err, rows) {
                 if (err) {
                     console.log(err);
                 }
