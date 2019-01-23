@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title></title>
+    <script type="text/javascript">
+        function Check() {
+
+            var Class_ID = document.getElementsByName('Class_ID')[0].value;
+            var Class_Name = document.getElementsByName('Class_Name')[0].value;
+            var Department = document.getElementsByName('Department')[0].value;
+            var Class_Number = document.getElementsByName('Class_Number')[0].value;
+            var Class_Section = document.getElementsByName('Class_Section')[0].value;
+            var Activate = document.getElementsByName('Activate')[0].value;
+            var Instructor = document.getElementsByName('Instructor')[0].value;
+            var Internal_Notes = document.getElementsByName('Internal_Notes')[0].value;
+            var Class_Description = document.getElementsByName('Class_Description')[0].value;
+            var Additional_Info = document.getElementsByName('Additional_Info')[0].value;
+            var Prerequisite = document.getElementsByName('Prerequisite')[0].value;
+            var Start_Week = document.getElementsByName('Start_Week')[0].value;
+            var End_Week = document.getElementsByName('End_Week')[0].value;
+            var Age_Start = document.getElementsByName('Age_Start')[0].value;
+            var Age_End = document.getElementsByName('Age_End')[0].value;
+            var Hourly_Fee = document.getElementsByName('Hourly_Fee')[0].value;
+            var Registration_Fee = document.getElementsByName('Registration_Fee')[0].value;
+            if (Class_ID&&Class_Name&&Department&&Class_Number&&Class_Section&&Activate&&
+                Instructor&&Internal_Notes&&Class_Description&&Additional_Info&&Prerequisite&&
+                Start_Week&&End_Week&&Age_Start&&Age_End&&Hourly_Fee&&Registration_Fee){
+                return true;
+            }
+            alert('please input the info.');
+            return false;
+
+        }
+    </script>
+</head>
+
+<body>
+<form name="editform" action="userEdit" method="post" accept-charset="utf-8" onSubmit="return Check();">
+    <h1>Class - Edit</h1>
+    <input type="hidden" name="id" value="<%=data[0].Instructor  %>" />
+    <div class="row">
+        <label>Class_ID：</label>
+        <input type="text" name="Class_ID" placeholder="Class_ID" value="<%=data[0].Class_ID %>" readonly  />
+    </div>
+    <div class="row">
+        <label>Class_Name：</label>
+        <input type="text" name="Class_Name" placeholder="Class_Name" value="<%=data[0].Class_Name  %>" />
+    </div>
+    <div class="row">
+        <label>Department：</label>
+        <input type="text" name="Department" placeholder="Department" value="<%=data[0].Department  %>">
+    </div>
+    <div class="row">
+        <label>Class_Number：</label>
+        <input type="text" name="Class_Number" placeholder="Class_Number" value="<%=data[0].Class_Number %>" readonly  />
+    </div>
+    <div class="row">
+        <label>Class_Section：</label>
+        <input type="text" name="Class_Section" placeholder="Class_Section" value="<%=data[0].Class_Section  %>" />
+    </div>
+    <div class="row">
+        <label>Activate：</label>
+        <input type="text" name="Activate" placeholder="Activate" value="<%=data[0].Activate  %>">
+    </div>
+    <div class="row">
+        <label>Internal_Notes：</label>
+        <input type="text" name="Internal_Notes" placeholder="Internal_Notes" value="<%=data[0].Internal_Notes %>" readonly  />
+    </div>
+    <div class="row">
+        <label>Class_Description：</label>
+        <input type="text" name="Class_Description" placeholder="Class_Description" value="<%=data[0].Class_Description  %>" />
+    </div>
+    <div class="row">
+        <label>Additional_Info：</label>
+        <input type="text" name="Additional_Info" placeholder="Additional_Info" value="<%=data[0].Additional_Info  %>">
+    </div>
+    <div class="row">
+        <label>Prerequisite：</label>
+        <input type="text" name="Prerequisite" placeholder="Prerequisite" value="<%=data[0].Prerequisite %>" readonly  />
+    </div>
+    <div class="row">
+        <label>Start_Week：</label>
+        <input type="text" name="Start_Week" placeholder="Start_Week" value="<%=data[0].Start_Week  %>" />
+    </div>
+    <div class="row">
+        <label>End_Week：</label>
+        <input type="text" name="End_Week" placeholder="End_Week" value="<%=data[0].End_Week  %>">
+    </div>
+    <div class="row">
+        <label>Age_Start：</label>
+        <input type="text" name="Age_Start" placeholder="Age_Start" value="<%=data[0].Age_Start %>" readonly  />
+    </div>
+    <div class="row">
+        <label>Age_End：</label>
+        <input type="text" name="Age_End" placeholder="Age_End" value="<%=data[0].Age_End  %>" />
+    </div>
+    <div class="row">
+        <label>Hourly_Fee：</label>
+        <input type="text" name="Hourly_Fee" placeholder="Hourly_Fee" value="<%=data[0].Hourly_Fee  %>">
+    </div>
+    <div class="row">
+        <label>Registration_Fee：</label>
+        <input type="text" name="Registration_Fee" placeholder="Registration_Fee" value="<%=data[0].Registration_Fee  %>">
+    </div>
+    <div class="row">
+        <input class="btn" type='submit' value='Submit'>
+        <input class="btn" type='reset' value='Reset'>
+        <input class="btn" type='button' value='Back' onclick="javascript: window.history.back();">
+    </div>
+</form>
+</body>
+
+</html>
