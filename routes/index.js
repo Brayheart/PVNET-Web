@@ -228,7 +228,7 @@ router.post('/userEdit', function(req, res, next) {
 
 router.get('/userDelete', function(req, res, next) {
 
-    var id = req.query.id;
+    var id = req.query.Instructor;
 
     var db = req.con;
 
