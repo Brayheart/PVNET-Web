@@ -50,7 +50,7 @@ router.post('/userAdd', function(req, res, next) {
             var sql = {
                 Class_ID: req.body.Class_ID,
                 Class_Name: req.body.Class_Name,
-                Department: req.body.Department
+                Department: req.body.Department,
                 Class_Number: req.body.Class_Number,
                 Class_Section: req.body.Class_Section,
                 Activate: req.body.Activate,
