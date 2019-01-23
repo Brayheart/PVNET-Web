@@ -228,11 +228,11 @@ router.post('/userEdit', function(req, res, next) {
 
 router.get('/userDelete', function(req, res, next) {
 
-    var id = req.query.Instructor;
+    var id = req.query.Class_ID;
 
     var db = req.con;
 
-    var qur = db.query('DELETE FROM SummerClasses WHERE instructor = ?', id, function(err, rows) {
+    var qur = db.query('DELETE FROM SummerClasses WHERE Class_ID = ?', id, function(err, rows) {
         if (err) {
             console.log(err);
         }
