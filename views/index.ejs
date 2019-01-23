@@ -8,13 +8,13 @@
   <link rel='stylesheet' href='/stylesheets/style.css' />
   <script>
       function Edit(id) {
-          window.location.href = "/userEdit?id=" + id;
+          window.location.href = "/userEdit?Instructor=" + id;
       }
 
       function Delete(id) {
           var rs = confirm('Confirm to delete?');
           if (rs) {
-              window.location.href = "/userDelete?id=" + id;
+              window.location.href = "/userDelete?Instructor=" + id;
           }
       }
 

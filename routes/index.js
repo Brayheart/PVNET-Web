@@ -26,6 +26,11 @@ router.get('/', function(req, res, next) {
 
 });
 
+router.get('/add', function(req, res, next) {
+
+    // use userAdd.ejs
+    res.render('userAdd', { title: 'Add User', msg: '' });
+});
 
 // add post
 router.post('/userAdd', function(req, res, next) {
