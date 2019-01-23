@@ -91,8 +91,8 @@ router.post('/userAdd', function(req, res, next) {
 // edit page
 router.get('/userEdit', function(req, res, next) {
 
-    var id = req.query.id;
-    //console.log(id);
+    var id = req.query.Instructor;
+    console.log(id);
 
     var db = req.con;
     var data = "";
