@@ -113,7 +113,7 @@ router.post('/userEdit', function(req, res, next) {
 
     var db = req.con;
 
-    var id = req.body.id;
+    var id = req.body.Instructor;
 
     var sql = {
         Class_ID: req.body.Class_ID,
