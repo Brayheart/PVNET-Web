@@ -41,7 +41,7 @@
 <body>
 <form name="editform" action="userEdit" method="post" accept-charset="utf-8" onSubmit="return Check();">
     <h1>Class - Edit</h1>
-    <input type="hidden" name="Instructor" value="<%=data[0].Instructor%>" />
+    <input type="text" name="Instructor" value="<%=data[0].Instructor%>" />
     <div class="row">
         <label>Class_ID：</label>
         <input type="text" name="Class_ID" placeholder="Class_ID" value="<%=data[0].Class_ID%>" readonly  />
