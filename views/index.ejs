@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
   <script>
-  function Search() {
-  var userid = document.getElementsByName('instructor')[0].value;
-  window.location.href = "/?user=" + userid;;
-  }
-    </script>
+      function Edit(id) {
+          window.location.href = "/userEdit?id=" + id;
+      }
+
+      function Delete(id) {
+          var rs = confirm('Confirm to delete?');
+          if (rs) {
+              window.location.href = "/userDelete?id=" + id;
+          }
+      }
+
+      function Search() {
+
+          var userid = document.getElementsByName('suserid')[0].value;
+          window.location.href = "/?user=" + userid;;
+      }
+  </script>
 </head>
+
 <body>
 <h1>Classes - List</h1>
-
-<table border="1" cellpadding="7" cellspacing="7">
+<div class="search">
+  <label>Instructor：</label>
+  <input type="text" name="suserid" value="<%=user  %>" placeholder="input the instructor">
+  <input type="button" name="sSearch" value="Search" class="btn" onclick="Search();">
+</div>
+<div class="control">
+  <input class="btn" type='submit' value='Add' onclick="javascript: location.href='add'">
+</div>
+<table class="table">
   <tr>
-    <th width="50px">No</th>
     <th>Class_ID</th>
     <th>Class_Name</th>
     <th>Department</th>
@@ -33,10 +56,9 @@
     <th>Consummables_Fee</th>
     <th>Hourly_Fee</th>
     <th>Registration_Fee</th>
-
+    <th></th>
   </tr>
-  <% if(data.length){
-  for(var i = 0;i < data.length;i++) { %>
+  <% for ( var i = 0 ; i < data.length ; i++){ %>
   <tr>
     <td><%=(i+1)%></td>
     <td><%=data[i].Class_ID%></td>
@@ -57,13 +79,13 @@
     <td><%=data[i].Consummables_Fee%></td>
     <td><%=data[i].Hourly_Fee%></td>
     <td><%=data[i].Registration_Fee%></td>
-  </tr>
-  <% }
-  }else{ %>
-  <tr>
-    <td colspan="3">No user</td>
+    <td>
+      <input type="button" name="edit" value="Edit" class="btn" onclick="Edit('<%= data[i].id  %>');" />
+      <input type="button" name="delete" value="Delete" class="btn" onclick="Delete('<%= data[i].id  %>');" />
+    </td>
   </tr>
   <% } %>
 </table>
 </body>
+g
 </html>
