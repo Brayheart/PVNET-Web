@@ -24,11 +24,12 @@
             var End_Week = document.getElementsByName('End_Week')[0].value;
             var Age_Start = document.getElementsByName('Age_Start')[0].value;
             var Age_End = document.getElementsByName('Age_End')[0].value;
+            var Consummables_Fee = document.getElementsByName('Consummables_Fee')[0].value;
             var Hourly_Fee = document.getElementsByName('Hourly_Fee')[0].value;
             var Registration_Fee = document.getElementsByName('Registration_Fee')[0].value;
             if (Class_ID&&Class_Name&&Department&&Class_Number&&Class_Section&&Activate&&
                 Instructor&&Internal_Notes&&Class_Description&&Additional_Info&&Prerequisite&&
-                Start_Week&&End_Week&&Age_Start&&Age_End&&Hourly_Fee&&Registration_Fee){
+                Start_Week&&End_Week&&Age_Start&&Consummables_Fee&&Age_End&&Hourly_Fee&&Registration_Fee){
                 return true;
             }
             alert('please input the info.');
@@ -59,11 +60,11 @@
     </div>
     <div class="row">
         <label>Class_Section：</label>
-        <input type="text" name="Class_Section" placeholder="Class_Section">
+        <input type="number" name="Class_Section" placeholder="Class_Section">
     </div>
     <div class="row">
         <label>Activate：</label>
-        <input type="text" name="Activate" placeholder="Activate">
+        <input type="number" name="Activate" placeholder="Activate">
     </div>
     <div class="row">
         <label>Instructor：</label>
@@ -99,15 +100,15 @@
     </div>
     <div class="row">
         <label>Age_End：</label>
-        <input type="text" name="Start_Week" placeholder="Start_Week">
+        <input type="number" name="Start_Week" placeholder="Start_Week">
     </div>
     <div class="row">
         <label>Hourly_Fee：</label>
-        <input type="text" name="Hourly_Fee" placeholder="Hourly_Fee">
+        <input type="number" name="Hourly_Fee" placeholder="Hourly_Fee">
     </div>
     <div class="row">
         <label>Registration_Fee：</label>
-        <input type="text" name="Registration_Fee" placeholder="Registration_Fee">
+        <input type="number" name="Registration_Fee" placeholder="Registration_Fee">
     </div>
     <div class="row">
         <input class="btn" type='submit' value='Submit'>
