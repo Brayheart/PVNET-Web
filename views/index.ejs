@@ -20,8 +20,8 @@
 
       function Search() {
 
-          var userid = document.getElementsByName('suserid')[0].value;
-          window.location.href = "/?user=" + userid;;
+          var userid = document.getElementsByName('instructor')[0].value;
+          window.location.href = "/?instructor=" + userid;;
       }
   </script>
 </head>
@@ -30,7 +30,7 @@
 <h1>Classes - List</h1>
 <div class="search">
   <label>Instructor：</label>
-  <input type="text" name="suserid" value="<%=user  %>" placeholder="input the instructor">
+  <input type="text" name="instructor" value="<%=user  %>" placeholder="input the instructor">
   <input type="button" name="sSearch" value="Search" class="btn" onclick="Search();">
 </div>
 <div class="control">
