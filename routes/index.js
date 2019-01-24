@@ -14,12 +14,12 @@ router.get('/', function(req, res, next) {
         filter = 'WHERE instructor = ?';
     }
 
-    db.query('SELECT * FROM  SummerClasses WHERE Instructor = ?' , user, function(err, rows) {
+    db.query('SELECT * FROM  SummerClasses ' + filter, user, function(err, rows) {
         if (err) {
             console.log(err);
         }
         var data = rows;
-
+        console.log(rows);
         // use index.ejs
         res.render('index', { title: 'Test Table', data: data, user: user });
 
