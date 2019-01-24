@@ -7,11 +7,11 @@ router.get('/', function(req, res, next) {
     var data = "";
 
     var user = "";
-    var user = req.body.Class_ID;
+    var user = req.body.Instructor;
 
     var filter = "";
     if (user) {
-        filter = 'WHERE Class_ID = ?';
+        filter = 'WHERE instructor = ?';
     }
 
     db.query('SELECT * FROM  SummerClasses ' + filter, user, function(err, rows) {
