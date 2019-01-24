@@ -133,6 +133,7 @@
       <find>activate</find>
       <find>userid</find>
       <find>area</find>
+      <find>price_in</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
