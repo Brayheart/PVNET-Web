@@ -27,6 +27,45 @@
             var Consummables_Fee = document.getElementsByName('Consummables_Fee')[0].value;
             var Hourly_Fee = document.getElementsByName('Hourly_Fee')[0].value;
             var Registration_Fee = document.getElementsByName('Registration_Fee')[0].value;
+            var Price_Included_For_Interns = document.getElementsByName('Price_Included_For_Interns')[0].value;
+            var Intern_Only = document.getElementsByName('Intern_Only')[0].value;
+            var Field_Trip = document.getElementsByName('Field_Trip')[0].value;
+            var Field_Trip_Wish_List = document.getElementsByName('Field_Trip_Wish_List')[0].value;
+            var Class = document.getElementsByName('Class')[0].value;
+            var Workshop = document.getElementsByName('Workshop')[0].value;
+            var GroupBased = document.getElementsByName('GroupBased')[0].value;
+            var Seasonal_Classification = document.getElementsByName('Seasonal_Classification')[0].value;
+            var No_Weeks = document.getElementsByName('No_Weeks')[0].value;
+            var M = document.getElementsByName('M')[0].value;
+            var T = document.getElementsByName('T')[0].value;
+            var W = document.getElementsByName('W')[0].value;
+            var TH = document.getElementsByName('TH')[0].value;
+            var F = document.getElementsByName('F')[0].value;
+            var Sat = document.getElementsByName('Sat')[0].value;
+            var Sun = document.getElementsByName('Sun')[0].value;
+            var Hrs_Per_Class = document.getElementsByName('Hrs_Per_Class')[0].value;
+            var Mtgs_Per_Wk = document.getElementsByName('Mtgs_Per_Wk')[0].value;
+            var Total_Meetings = document.getElementsByName('Total_Meetings')[0].value;
+            var Total_Class_Time_Hrs = document.getElementsByName('Total_Class_Time_Hrs')[0].value;
+            var Start_Time = document.getElementsByName('Start_Time')[0].value;
+            var End_Time = document.getElementsByName('End_Time')[0].value;
+            var AREA = document.getElementsByName('AREA')[0].value;
+            var IMG_1 = document.getElementsByName('IMG_1')[0].value;
+            var IMG_2 = document.getElementsByName('IMG_2')[0].value;
+            var IMG_3 = document.getElementsByName('IMG_3')[0].value;
+            var EXT_LINK_1 = document.getElementsByName('EXT_LINK_1')[0].value;
+            var EXT_LINK_2 = document.getElementsByName('EXT_LINK_2')[0].value;
+            var EXT_LINK_3 = document.getElementsByName('EXT_LINK_3')[0].value;
+            var UND_1 = document.getElementsByName('UND_1')[0].value;
+            var UND_2 = document.getElementsByName('UND_2')[0].value;
+            var UND_3 = document.getElementsByName('UND_3')[0].value;
+            var UND_4 = document.getElementsByName('UND_4')[0].value;
+            var UND_5 = document.getElementsByName('UND_5')[0].value;
+            var UND_6 = document.getElementsByName('UND_6')[0].value;
+            var UND_7 = document.getElementsByName('UND_7')[0].value;
+            var UND_8 = document.getElementsByName('UND_8')[0].value;
+            var UND_9 = document.getElementsByName('UND_9')[0].value;
+            var UND_10 = document.getElementsByName('UND_10')[0].value;
             if (Class_ID&&Class_Name&&Department&&Class_Number&&Class_Section&&Activate&&
                 Instructor&&Internal_Notes&&Class_Description&&Additional_Info&&Prerequisite&&
                 Start_Week&&End_Week&&Age_Start&&Consummables_Fee&&Age_End&&Hourly_Fee&&Registration_Fee){
@@ -107,9 +146,163 @@
         <input type="number" name="Hourly_Fee" placeholder="Hourly_Fee">
     </div>
     <div class="row">
-        <label>Registration_Fee：</label>
-        <input type="number" name="Registration_Fee" placeholder="Registration_Fee">
+        <label>Price_Included_For_Interns：</label>
+        <input type="number" name="Price_Included_For_Interns" placeholder="Price_Included_For_Interns">
     </div>
+    <div class="row">
+        <label>Intern_Only：</label>
+        <input type="text" name="Intern_Only" placeholder="Intern_Only">
+    </div>
+    <div class="row">
+        <label>Field_Trip：</label>
+        <input type="text" name="Field_Trip" placeholder="Field_Trip">
+    </div>
+    <div class="row">
+        <label>Field_Trip_Wish_List：</label>
+        <input type="text" name="Field_Trip_Wish_List" placeholder="Field_Trip_Wish_List">
+    </div>
+    <div class="row">
+        <label>Class：</label>
+        <input type="number" name="Class" placeholder="Class">
+    </div>
+    <div class="row">
+        <label>Workshop：</label>
+        <input type="text" name="Workshop" placeholder="Workshop">
+    </div>
+    <div class="row">
+        <label>GroupBased：</label>
+        <input type="number" name="GroupBased" placeholder="GroupBased">
+    </div>
+    <div class="row">
+        <label>Seasonal_Classification：</label>
+        <input type="text" name="Seasonal_Classification" placeholder="Seasonal_Classification">
+    </div>
+    <div class="row">
+        <label>No_Weeks：</label>
+        <input type="text" name="No_Weeks" placeholder="No_Weeks">
+    </div>
+    <div class="row">
+        <label>M：</label>
+        <input type="number" name="M" placeholder="M">
+    </div>
+    <div class="row">
+        <label>T：</label>
+        <input type="number" name="T" placeholder="T">
+    </div>
+    <div class="row">
+        <label>W：</label>
+        <input type="number" name="W" placeholder="W">
+    </div>
+    <div class="row">
+        <label>TH：</label>
+        <input type="number" name="TH" placeholder="TH">
+    </div>
+    <div class="row">
+        <label>F：</label>
+        <input type="number" name="F" placeholder="F">
+    </div>
+    <div class="row">
+        <label>Sat：</label>
+        <input type="number" name="Sat" placeholder="Sat">
+    </div>
+    <div class="row">
+        <label>Sun：</label>
+        <input type="number" name="Sun" placeholder="Sun">
+    </div>
+    <div class="row">
+        <label>Hrs_Per_Class：</label>
+        <input type="number" name="Hrs_Per_Class" placeholder="Hrs_Per_Class">
+    </div>
+    <div class="row">
+        <label>Mtgs_Per_Wk：</label>
+        <input type="text" name="Mtgs_Per_Wk" placeholder="Mtgs_Per_Wk">
+    </div>
+    <div class="row">
+        <label>Total_Meetings：</label>
+        <input type="text" name="Total_Meetings" placeholder="Total_Meetings">
+    </div>
+    <div class="row">
+        <label>Total_Class_Time_Hrs：</label>
+        <input type="text" name="Total_Class_Time_Hrs" placeholder="Total_Class_Time_Hrs">
+    </div>
+    <div class="row">
+        <label>Start_Time：</label>
+        <input type="text" name="Start_Time" placeholder="Start_Time">
+    </div>
+    <div class="row">
+        <label>End_Time：</label>
+        <input type="text" name="End_Time" placeholder="End_Time">
+    </div>
+    <div class="row">
+        <label>AREA：</label>
+        <input type="text" name="AREA" placeholder="AREA">
+    </div>
+    <div class="row">
+        <label>IMG_1：</label>
+        <input type="text" name="IMG_1" placeholder="IMG_1">
+    </div>
+    <div class="row">
+        <label>IMG_2：</label>
+        <input type="text" name="IMG_2" placeholder="IMG_2">
+    </div>
+    <div class="row">
+        <label>IMG_3：</label>
+        <input type="text" name="IMG_3" placeholder="IMG_3">
+    </div>
+    <div class="row">
+        <label>EXT_LINK_1：</label>
+        <input type="text" name="EXT_LINK_1" placeholder="EXT_LINK_1">
+    </div>
+    <div class="row">
+        <label>EXT_LINK_2：</label>
+        <input type="text" name="EXT_LINK_2" placeholder="EXT_LINK_2">
+    </div>
+    <div class="row">
+        <label>EXT_LINK_3：</label>
+        <input type="text" name="EXT_LINK_3" placeholder="EXT_LINK_3">
+    </div>
+    <div class="row">
+        <label>UND_1：</label>
+        <input type="text" name="UND_1" placeholder="UND_1">
+    </div>
+    <div class="row">
+        <label>UND_2：</label>
+        <input type="text" name="UND_2" placeholder="UND_2">
+    </div>
+    <div class="row">
+        <label>UND_3：</label>
+        <input type="text" name="UND_3" placeholder="UND_3">
+    </div>
+    <div class="row">
+        <label>UND_4：</label>
+        <input type="text" name="UND_4" placeholder="UND_4">
+    </div>
+    <div class="row">
+        <label>UND_5：</label>
+        <input type="text" name="UND_5" placeholder="UND_5">
+    </div>
+    <div class="row">
+        <label>UND_6：</label>
+        <input type="text" name="UND_6" placeholder="UND_6">
+    </div>
+    <div class="row">
+        <label>UND_7：</label>
+        <input type="text" name="UND_7" placeholder="UND_7">
+    </div>
+    <div class="row">
+        <label>UND_8：</label>
+        <input type="text" name="UND_8" placeholder="UND_8">
+    </div>
+    <div class="row">
+        <label>UND_9：</label>
+        <input type="text" name="UND_9" placeholder="UND_9">
+    </div>
+    <div class="row">
+        <label>UND_10：</label>
+        <input type="text" name="UND_10" placeholder="UND_10">
+    </div>
+
+
     <div class="row">
         <input class="btn" type='submit' value='Submit'>
         <input class="btn" type='reset' value='Reset'>
