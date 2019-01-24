@@ -65,7 +65,7 @@ a:hover {
 }
 
 .row input[type='text'],
-.row input[type='password'] {
+.row input[type='number'] {
   float: right;
   height: 20px;
   padding: 0 5px;
