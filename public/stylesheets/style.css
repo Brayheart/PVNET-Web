@@ -37,13 +37,13 @@ a:hover {
 
 .table tr {
   height: 35px;
-  border: 1px solid #dddddd;
+  border: 5px solid #dddddd;
 }
 
 .table tr th {
   padding: 0 10px;
   font-weight: bold;
-  border: 1px solid #dddddd;
+  border: 5px solid #dddddd;
 
 }
 
