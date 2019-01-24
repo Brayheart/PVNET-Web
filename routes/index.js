@@ -58,7 +58,7 @@ router.post('/userAdd', function(req, res, next) {
                 Department: req.body.Department,
                 Class_Number: req.body.Class_Number,
                 Class_Section: req.body.Class_Section,
-                Activate: req.body.Activate,
+                Activate: 1,
                 Instructor: req.body.Instructor,
                 Internal_Notes: req.body.Internal_Notes,
                 Class_Description: req.body.Class_Description,
