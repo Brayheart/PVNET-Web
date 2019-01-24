@@ -7,11 +7,11 @@ router.get('/', function(req, res, next) {
     var data = "";
 
     var user = "";
-    var user = req.body.Instructor;
+    var user = req.body.Class_ID;
 
     var filter = "";
     if (user) {
-        filter = 'WHERE instructor = ?';
+        filter = 'WHERE Class_ID = ?';
     }
 
     db.query('SELECT * FROM  SummerClasses ' + filter, user, function(err, rows) {
@@ -19,7 +19,6 @@ router.get('/', function(req, res, next) {
             console.log(err);
         }
         var data = rows;
-        console.log(rows);
         // use index.ejs
         res.render('index', { title: 'Test Table', data: data, user: user });
 
