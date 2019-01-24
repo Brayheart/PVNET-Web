@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
     var data = "";
 
     var user = "";
-    var user = req.body.user;
+    var user = req.body.Instructor;
 
     var filter = "";
     if (user) {
