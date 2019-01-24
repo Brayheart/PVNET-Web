@@ -72,7 +72,7 @@ a:hover {
 .row input[type='number'] {
   float: right;
   height: 20px;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
 .btn {
