@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/userEdit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/userEdit.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,22 +29,22 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-827">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="-617">
+              <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userEdit.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userEdit.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userEdit.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-307">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="271">
+              <caret line="227" column="83" selection-start-line="227" selection-start-column="83" selection-end-line="227" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -129,6 +130,7 @@
       <find>price</find>
       <find>userid</find>
       <find>activate</find>
+      <find>class_ID</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,10 +147,10 @@
         <option value="$PROJECT_DIR$/views/Components/scripts.ejs" />
         <option value="$PROJECT_DIR$/routes/testtable.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/userEdit.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/userAdd.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/userEdit.ejs" />
       </list>
     </option>
   </component>
@@ -280,12 +282,12 @@
       <workItem from="1548049215784" duration="1484000" />
       <workItem from="1548173614181" duration="61000" />
       <workItem from="1548267957714" duration="9467000" />
-      <workItem from="1548288934580" duration="8806000" />
+      <workItem from="1548288934580" duration="9584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36353000" />
+    <option name="totallyTimeSpent" value="37131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="1481" height="975" extended-state="0" />
@@ -633,24 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Components/scripts.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userEdit.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -661,10 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-827">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -672,6 +660,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="321" column="52" selection-start-line="321" selection-start-column="47" selection-end-line="321" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-617">
+          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userEdit.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="227" column="83" selection-start-line="227" selection-start-column="83" selection-end-line="227" selection-end-column="83" />
         </state>
       </provider>
     </entry>
