@@ -112,7 +112,7 @@ router.post('/userAdd', function(req, res, next) {
                 UND_10: req.body.UND_10
             };
 
-            //console.log(sql);
+            console.log(sql);
             var qur = db.query('INSERT INTO SummerClasses SET ?', sql, function(err, rows) {
                 if (err) {
                     console.log(err);
@@ -152,7 +152,7 @@ router.post('/userEdit', function(req, res, next) {
 
     var db = req.con;
 
-    var id = req.body.Instructor;
+    var id = req.body.Class_ID;
 
     var sql = {
         Class_ID: req.body.Class_ID,
