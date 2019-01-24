@@ -215,7 +215,7 @@ router.post('/userEdit', function(req, res, next) {
         UND_10: req.body.UND_10
     };
 
-    var qur = db.query('UPDATE SummerClasses SET ? WHERE Instructor = ?', [sql, id], function(err, rows) {
+    var qur = db.query('UPDATE SummerClasses SET ? WHERE Class_ID = ?', [sql, id], function(err, rows) {
         if (err) {
             console.log(err);
         }
