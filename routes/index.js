@@ -38,8 +38,8 @@ router.post('/userAdd', function(req, res, next) {
     var db = req.con;
 
     // check userid exist
-    var userid = req.body.userid;
-    var qur = db.query('SELECT * FROM SummerClasses WHERE instructor = ?', userid, function(err, rows) {
+    var userid = req.body.Class_ID;
+    var qur = db.query('SELECT * FROM SummerClasses WHERE Class_ID = ?', userid, function(err, rows) {
         if (err) {
             console.log(err);
         }
@@ -47,7 +47,7 @@ router.post('/userAdd', function(req, res, next) {
         var count = rows.length;
         if (count > 0) {
 
-            var msg = 'Userid already exists.';
+            var msg = 'Class already exists.';
             res.render('userAdd', { title: 'Add User', msg: msg });
 
         } else {
@@ -130,13 +130,13 @@ router.post('/userAdd', function(req, res, next) {
 // edit page
 router.get('/userEdit', function(req, res, next) {
 
-    var id = req.query.Instructor;
+    var id = req.query.Class_ID;
     console.log(id);
 
     var db = req.con;
     var data = "";
 
-    db.query('SELECT * FROM SummerClasses WHERE instructor = ?', id, function(err, rows) {
+    db.query('SELECT * FROM SummerClasses WHERE Class_ID = ?', id, function(err, rows) {
         if (err) {
             console.log(err);
         }
