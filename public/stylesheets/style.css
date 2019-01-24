@@ -76,7 +76,7 @@ a:hover {
   height: 30px;
   border: none;
   color: #FFFFFF;
-  background: #7DCD85;
+  background: #cd8141;
   cursor: pointer;
   outline: none;
   -webkit-transition: background .25s;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: #6BB072;
+  background: #b05610;
 }
 
 .msgerr {
