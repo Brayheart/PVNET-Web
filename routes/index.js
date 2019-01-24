@@ -22,6 +22,8 @@ router.get('/', function(req, res, next) {
 
         // use index.ejs
         res.render('index', { title: 'Test Table', data: data, user: user });
+        res.redirect('/');
+
     });
 
 });
