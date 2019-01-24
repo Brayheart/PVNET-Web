@@ -198,7 +198,7 @@ router.post('/userEdit', function(req, res, next) {
         End_Time: req.body.End_Time,
         AREA: req.body.AREA,
         IMG_1: req.body.IMG_1,
-        IMG_2: req.IMG_2,
+        IMG_2: req.body.IMG_2,
         IMG_3: req.body.IMG_3,
         EXT_LINK_1: req.body.EXT_LINK_1,
         EXT_LINK_2: req.body.EXT_LINK_2,
