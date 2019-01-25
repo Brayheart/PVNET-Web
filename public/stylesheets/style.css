@@ -46,6 +46,8 @@ a:hover {
   padding: 0 10px;
   font-weight: bold;
   border: 5px solid #dddddd;
+    color: #ffffff;
+    background: #6c7ae0;
 
 }
 
@@ -53,7 +55,7 @@ a:hover {
   padding: 0 10px;
   border: 5px solid #dddddd;
     color: #ffffff;
-    background: #6c7ae0;
+    background: #646969;
 }
 
 
