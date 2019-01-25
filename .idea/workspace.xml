@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,17 +17,17 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+            <state relative-caret-position="437">
+              <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+            <state relative-caret-position="504">
+              <caret line="82" column="22" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,17 +53,17 @@
       <file leaf-file-name="userEdit.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userEdit.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
+            <state relative-caret-position="-2533">
               <caret line="115" column="27" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4815">
-              <caret line="321" column="52" selection-start-line="321" selection-start-column="47" selection-end-line="321" selection-end-column="52" />
+            <state relative-caret-position="377">
+              <caret line="326" column="10" lean-forward="true" selection-start-line="326" selection-start-column="10" selection-end-line="326" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -150,11 +147,11 @@
         <option value="$PROJECT_DIR$/views/Components/scripts.ejs" />
         <option value="$PROJECT_DIR$/routes/testtable.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/userAdd.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/userEdit.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/userAdd.ejs" />
       </list>
     </option>
   </component>
@@ -175,9 +172,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
+    <option name="x" value="316" />
     <option name="y" value="23" />
-    <option name="width" value="1481" />
+    <option name="width" value="1285" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -291,15 +288,16 @@
       <workItem from="1548348115974" duration="3453000" />
       <workItem from="1548357420742" duration="50000" />
       <workItem from="1548357615872" duration="156000" />
-      <workItem from="1548373638802" duration="558000" />
+      <workItem from="1548373638802" duration="785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42657000" />
+    <option name="totallyTimeSpent" value="42884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="1481" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28356165" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -636,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4815">
-          <caret line="321" column="52" selection-start-line="321" selection-start-column="47" selection-end-line="321" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/testtable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -664,24 +655,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+        <state relative-caret-position="437">
+          <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userEdit.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
+        <state relative-caret-position="-2533">
           <caret line="115" column="27" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        <state relative-caret-position="377">
+          <caret line="326" column="10" lean-forward="true" selection-start-line="326" selection-start-column="10" selection-end-line="326" selection-end-column="10" />
         </state>
       </provider>
     </entry>
