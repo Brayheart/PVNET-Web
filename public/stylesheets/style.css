@@ -38,6 +38,8 @@ a:hover {
 .table tr {
   height: 35px;
   border: 5px solid #dddddd;
+    display: table-row;
+    background: #fff;
 }
 
 .table tr th {
@@ -50,7 +52,8 @@ a:hover {
 .table tr td {
   padding: 0 10px;
   border: 5px solid #dddddd;
-
+    color: #ffffff;
+    background: #6c7ae0;
 }
 
 
