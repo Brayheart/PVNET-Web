@@ -28,10 +28,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <marker date="1548385029280" expanded="true" signature="0:1460" ph="..." />
+                <marker date="1548385446307" expanded="true" signature="0:1487" ph="..." />
               </folding>
             </state>
           </provider>
@@ -293,12 +293,12 @@
       <workItem from="1548348115974" duration="3453000" />
       <workItem from="1548357420742" duration="50000" />
       <workItem from="1548357615872" duration="156000" />
-      <workItem from="1548373638802" duration="1562000" />
+      <workItem from="1548373638802" duration="1993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43661000" />
+    <option name="totallyTimeSpent" value="44092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="23" width="1285" height="975" extended-state="0" />
@@ -682,10 +682,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1548385029280" expanded="true" signature="0:1460" ph="..." />
+            <marker date="1548385446307" expanded="true" signature="0:1487" ph="..." />
           </folding>
         </state>
       </provider>

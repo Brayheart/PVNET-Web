@@ -1,8 +1,10 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background: #9478ff;
-}
+    background: -webkit-linear-gradient(-135deg, #5938c8, #c372d0);
+    background: -o-linear-gradient(-135deg, #5938c8, #c372d0);
+    background: -moz-linear-gradient(-135deg, #5938c8, #c372d0);
+    background: linear-gradient(-135deg, #5938c8, #c372d0);}
 
 
 /* index */
