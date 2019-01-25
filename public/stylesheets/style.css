@@ -57,9 +57,9 @@ a:hover {
 /* useradd */
 
 .row {
-  width: 280px;
+  width: 400px;
   height: 30px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .row label {
