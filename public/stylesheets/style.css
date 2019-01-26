@@ -14,7 +14,8 @@ body {
   margin: 10px;
 }
 
-.search input[type='text'] {
+.search input[type='text'],
+input[type='date']{
   height: 25px;
   padding: 0 5px;
 }
@@ -77,7 +78,8 @@ a:hover {
 }
 
 .row input[type='text'],
-.row input[type='number'] {
+.row input[type='number'],
+.row input[type='date']{
   float: right;
   height: 20px;
   padding: 0 5px;
