@@ -105,7 +105,7 @@
     </div>
     <div class="row">
         <label>Activate：</label>
-        <input type="number" name="Activate" placeholder="Activate" value="<%=data[0].Activate  %>">
+        <input type="number" name="Activate" placeholder="Activate" value="<%=data[0].Activate  %>" min = "0" max="1" />
     </div>
     <div class="row">
         <label>Internal_Notes：</label>
@@ -133,43 +133,43 @@
     </div>
     <div class="row">
         <label>Age_Start：</label>
-        <input type="text" name="Age_Start" placeholder="Age_Start" value="<%=data[0].Age_Start %>"   />
+        <input type="number" name="Age_Start" placeholder="Age_Start" value="<%=data[0].Age_Start %>"   />
     </div>
     <div class="row">
         <label>Age_End：</label>
-        <input type="text" name="Age_End" placeholder="Age_End" value="<%=data[0].Age_End  %>" />
+        <input type="number" name="Age_End" placeholder="Age_End" value="<%=data[0].Age_End  %>" />
     </div>
     <div class="row">
         <label>Hourly_Fee：</label>
-        <input type="text" name="Hourly_Fee" placeholder="Hourly_Fee" value="<%=data[0].Hourly_Fee  %>">
+        <input type="number" name="Hourly_Fee" placeholder="Hourly_Fee" value="<%=data[0].Hourly_Fee  %>">
     </div>
     <div class="row">
         <label>Registration_Fee：</label>
-        <input type="text" name="Registration_Fee" placeholder="Registration_Fee" value="<%=data[0].Registration_Fee  %>">
+        <input type="number" name="Registration_Fee" placeholder="Registration_Fee" value="<%=data[0].Registration_Fee  %>">
     </div>
     <div class="row">
         <label>Price_Included：</label>
-        <input type="number" name="Price_Included_For_Interns" placeholder="Price_Included_For_Interns" value="<%=data[0].Price_Included_For_Interns%>"   />
+        <input type="number" name="Price_Included_For_Interns" placeholder="Price_Included_For_Interns" value="<%=data[0].Price_Included_For_Interns%>" min = "0" max="1"  />
     </div>
     <div class="row">
         <label>Intern_Only：</label>
-        <input type="text" name="Intern_Only" placeholder="Intern_Only" value="<%=data[0].Intern_Only  %>" />
+        <input type="number" name="Intern_Only" placeholder="Intern_Only" value="<%=data[0].Intern_Only  %>" min = "0" max="1"  />
     </div>
     <div class="row">
         <label>Field_Trip：</label>
-        <input type="text" name="Field_Trip" placeholder="Field_Trip" value="<%=data[0].Field_Trip  %>">
+        <input type="number" name="Field_Trip" placeholder="Field_Trip" value="<%=data[0].Field_Trip  %>" min = "0" max="1" />
     </div>
     <div class="row">
         <label>Field_Trip_Wish_List：</label>
-        <input type="text" name="Field_Trip_Wish_List" placeholder="Field_Trip_Wish_List" value="<%=data[0].Field_Trip_Wish_List %>"   />
+        <input type="number" name="Field_Trip_Wish_List" placeholder="Field_Trip_Wish_List" value="<%=data[0].Field_Trip_Wish_List %>"   min = "0" max="1"/>
     </div>
     <div class="row">
         <label>Class：</label>
-        <input type="number" name="Class" placeholder="Class" value="<%=data[0].Class  %>" />
+        <input type="number" name="Class" placeholder="Class" value="<%=data[0].Class  %>" min = "0" max="1" />
     </div>
     <div class="row">
         <label>Workshop：</label>
-        <input type="text" name="Workshop" placeholder="Workshop" value="<%=data[0].Workshop  %>">
+        <input type="number" name="Workshop" placeholder="Workshop" value="<%=data[0].Workshop  %>" min = "0" max="1"/>
     </div>
     <div class="row">
         <label>GroupBased：</label>
@@ -185,55 +185,55 @@
     </div>
     <div class="row">
         <label>M：</label>
-        <input type="number" name="M" placeholder="M" value="<%=data[0].M %>"   />
+        <input type="number" name="M" placeholder="M" value="<%=data[0].M %>"  min = "0" max="1" />
     </div>
     <div class="row">
         <label>T：</label>
-        <input type="number" name="T" placeholder="T" value="<%=data[0].T  %>" />
+        <input type="number" name="T" placeholder="T" value="<%=data[0].T  %>"min = "0" max="1" />
     </div>
     <div class="row">
         <label>W：</label>
-        <input type="number" name="W" placeholder="W" value="<%=data[0].W  %>">
+        <input type="number" name="W" placeholder="W" value="<%=data[0].W  %>"min = "0" max="1">
     </div>
     <div class="row">
         <label>TH：</label>
-        <input type="number" name="TH" placeholder="TH" value="<%=data[0].TH %>"   />
+        <input type="number" name="TH" placeholder="TH" value="<%=data[0].TH %>"  min = "0" max="1" />
     </div>
     <div class="row">
         <label>F：</label>
-        <input type="number" name="F" placeholder="F" value="<%=data[0].F  %>" />
+        <input type="number" name="F" placeholder="F" value="<%=data[0].F  %>"min = "0" max="1" />
     </div>
     <div class="row">
         <label>Sat：</label>
-        <input type="text" name="Sat" placeholder="Sat" value="<%=data[0].Sat  %>">
+        <input type="number" name="Sat" placeholder="Sat" value="<%=data[0].Sat  %>" min = "0" max="1">
     </div>
     <div class="row">
         <label>Sun：</label>
-        <input type="text" name="Sun" placeholder="Sun" value="<%=data[0].Sun  %>">
+        <input type="number" name="Sun" placeholder="Sun" value="<%=data[0].Sun  %>" min = "0" max="1">
     </div>
     <div class="row">
         <label>Hrs_Per_Class：</label>
-        <input type="text" name="Hrs_Per_Class" placeholder="Hrs_Per_Class" value="<%=data[0].Hrs_Per_Class%>"   />
+        <input type="number" name="Hrs_Per_Class" placeholder="Hrs_Per_Class" value="<%=data[0].Hrs_Per_Class%>"   />
     </div>
     <div class="row">
         <label>Mtgs_Per_Wk：</label>
-        <input type="text" name="Mtgs_Per_Wk" placeholder="Mtgs_Per_Wk" value="<%=data[0].Mtgs_Per_Wk  %>" />
+        <input type="number" name="Mtgs_Per_Wk" placeholder="Mtgs_Per_Wk" value="<%=data[0].Mtgs_Per_Wk  %>" />
     </div>
     <div class="row">
         <label>Total_Meetings：</label>
-        <input type="text" name="Total_Meetings" placeholder="Total_Meetings" value="<%=data[0].Total_Meetings  %>">
+        <input type="number" name="Total_Meetings" placeholder="Total_Meetings" value="<%=data[0].Total_Meetings  %>">
     </div>
     <div class="row">
         <label>Total_Class_Time_Hrs：</label>
-        <input type="text" name="Total_Class_Time_Hrs" placeholder="Total_Class_Time_Hrs" value="<%=data[0].Total_Class_Time_Hrs %>"   />
+        <input type="number" name="Total_Class_Time_Hrs" placeholder="Total_Class_Time_Hrs" value="<%=data[0].Total_Class_Time_Hrs %>"   />
     </div>
     <div class="row">
         <label>Start_Time：</label>
-        <input type="text" name="Start_Time" placeholder="Start_Time" value="<%=data[0].Start_Time  %>" />
+        <input type="time" name="Start_Time" placeholder="Start_Time" value="<%=data[0].Start_Time  %>" />
     </div>
     <div class="row">
         <label>End_Time：</label>
-        <input type="text" name="End_Time" placeholder="End_Time" value="<%=data[0].End_Time  %>">
+        <input type="time" name="End_Time" placeholder="End_Time" value="<%=data[0].End_Time  %>">
     </div>
     <div class="row">
         <label>AREA：</label>
