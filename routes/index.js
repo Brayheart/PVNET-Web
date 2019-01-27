@@ -26,7 +26,13 @@ router.get('/', function(req, res, next) {
 
 });
 
-router.post('/InstructorSearch', function(req, res, next) {
+route.post('/InstructorSearchDisplay', function(req, res, next){
+  var db = req.con;
+  var ins = req.body.Instructor;
+  console.log(ins);
+});
+
+router.get('/InstructorSearch', function(req, res, next) {
 
     var db = req.con;
     var data = "";
@@ -61,6 +67,7 @@ router.post('/userAdd', function(req, res, next) {
 
     // check userid exist
     var userid = req.body.Class_ID;
+
     var qur = db.query('SELECT * FROM SummerClasses WHERE Class_ID = ?', userid, function(err, rows) {
         if (err) {
             console.log(err);
