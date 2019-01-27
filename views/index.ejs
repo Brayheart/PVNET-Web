@@ -33,7 +33,7 @@
 <div class="search">
   <label>Instructor：</label>
   <input type="text" name="Instructor"<%=user%>  placeholder="input the instructor">
-  <input type="button" name="sSearch" value="Search" class="btn" onclick="Search(getElementsByName('Instructor')[0].value)">
+  <input type="button" name="sSearch" method="post" value="Search" class="btn" onclick="Search(getElementsByName('Instructor')[0].value)">
 </div>
 <div class="control">
   <input class="btn" type='submit' value='Add' onclick="javascript: location.href='add'">
