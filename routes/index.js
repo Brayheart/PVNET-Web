@@ -26,11 +26,6 @@ router.get('/', function(req, res, next) {
 
 });
 
-router.post('/', function(req, res, next){
-  var db = req.con;
-  var ins = req.body.Instructor;
-  console.log(ins);
-});
 
 router.get('/InstructorSearch', function(req, res, next) {
 
