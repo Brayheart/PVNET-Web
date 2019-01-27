@@ -67,8 +67,11 @@
             var UND_9 = document.getElementsByName('UND_9')[0].value;
             var UND_10 = document.getElementsByName('UND_10')[0].value;
 
-            return true;
-
+            if(Start_Week&&End_Week){
+                return true;
+            }
+            alert("Please input the dates");
+            return false;
         }
         function Activate(){
             document.getElementById("Activate").checked = true;
