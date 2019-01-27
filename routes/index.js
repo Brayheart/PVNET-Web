@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     if (user) {
         filter = 'WHERE instructor = ?';
     }
-
+    console.log(user);
     db.query('SELECT * FROM  SummerClasses ' + filter, user, function(err, rows) {
         if (err) {
             console.log(err);
@@ -33,7 +33,7 @@ router.get('/InstructorSearch', function(req, res, next) {
     var data = "";
 
     var user = req.body.Instructor;
-   // console.log(user);
+    console.log(user);
 
 
     db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
