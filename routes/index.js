@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var user = req.body.Class_ID;
+    var user = req.body.Instructor;
 
     var filter = "";
     if (user) {
@@ -26,7 +26,20 @@ router.get('/', function(req, res, next) {
 
 });
 
+router.post('/SearchInstructor', function(req, res, next) {
 
+    var db = req.con;
+
+    // check userid exist
+    var userid = req.body.Instructor;
+
+    var qur = db.query('SELECT * FROM SummerClasses WHERE Instructor = ?', userid, function(err, rows) {
+        if (err) {
+            console.log(err);
+        }
+        res.redirect('/InstructorSearch');
+    });
+});
 router.get('/InstructorSearch', function(req, res, next) {
 
     var db = req.con;
