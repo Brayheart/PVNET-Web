@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var user = req.body.Instructor;
+    var user = req.body.Class_ID;
 
     var filter = "";
     if (user) {
