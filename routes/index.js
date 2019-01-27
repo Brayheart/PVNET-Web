@@ -33,12 +33,9 @@ router.get('/InstructorSearch', function(req, res, next) {
 
     var user = req.body.Instructor;
 
-    var filter = "";
-    if (user) {
-        filter = 'WHERE instructor = ?';
-    }
 
-    db.query('SELECT * FROM  SummerClasses ' + filter, user, function(err, rows) {
+
+    db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
         if (err) {
             console.log(err);
         }
