@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/userAdd.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/userAdd.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -77,8 +76,8 @@
       <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
+            <state relative-caret-position="243">
+              <caret line="242" column="83" selection-start-line="242" selection-start-column="83" selection-end-line="242" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -302,16 +301,15 @@
       <workItem from="1548357615872" duration="156000" />
       <workItem from="1548373638802" duration="2455000" />
       <workItem from="1548437198739" duration="122000" />
-      <workItem from="1548536061453" duration="4687000" />
+      <workItem from="1548536061453" duration="5023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49363000" />
+    <option name="totallyTimeSpent" value="49699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1567" height="975" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26778784" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -695,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
+        <state relative-caret-position="243">
+          <caret line="242" column="83" selection-start-line="242" selection-start-column="83" selection-end-line="242" selection-end-column="83" />
         </state>
       </provider>
     </entry>
