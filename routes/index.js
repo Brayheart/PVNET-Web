@@ -26,7 +26,7 @@ router.get('/', function(req, res, next) {
 
 });
 
-route.post('/InstructorSearchDisplay', function(req, res, next){
+router.post('/InstructorSearchDisplay', function(req, res, next){
   var db = req.con;
   var ins = req.body.Instructor;
   console.log(ins);
