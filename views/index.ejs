@@ -20,9 +20,8 @@
           }
       }
 
-      function Search() {
+      function Search(userid) {
 
-          var userid = document.getElementsByName('instructor')[0].value;
           window.location.href = "/InstructorSearch?Instructor=" + userid;
       }
 
@@ -33,8 +32,8 @@
 <h1>Classes - List</h1>
 <div class="search">
   <label>Instructor：</label>
-  <input type="text" name="instructor" value="<%=user%>" placeholder="input the instructor">
-  <input type="button" name="sSearch" value="Search" class="btn" onclick="Search()">
+  <input type="text" name="instructor"  placeholder="input the instructor">
+  <input type="button" name="sSearch" value="Search" class="btn" onclick="Search(getElementsByName('instructor')[0].value)">
 </div>
 <div class="control">
   <input class="btn" type='submit' value='Add' onclick="javascript: location.href='add'">
