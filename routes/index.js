@@ -32,7 +32,7 @@ router.get('/InstructorSearch', function(req, res, next) {
     var data = "";
 
     var user = req.body.Instructor;
-
+    console.log(user);
 
 
     db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
