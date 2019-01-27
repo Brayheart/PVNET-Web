@@ -6,7 +6,6 @@ router.get('/', function(req, res, next) {
     var db = req.con;
     var data = "";
 
-    var user = "";
     var user = req.body.Instructor;
 
     var filter = "";
@@ -19,6 +18,7 @@ router.get('/', function(req, res, next) {
             console.log(err);
         }
         var data = rows;
+        console.log(user);
         // use index.ejs
         res.render('index', { title: 'Test Table', data: data, user: user });
 

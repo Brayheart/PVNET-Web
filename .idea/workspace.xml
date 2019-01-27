@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/views/userAdd.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/userAdd.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="339">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -58,8 +59,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-617">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            <state relative-caret-position="330">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -73,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userAdd.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="242" column="83" selection-start-line="242" selection-start-column="83" selection-end-line="242" selection-end-column="83" />
+            <state relative-caret-position="418">
+              <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -152,11 +153,11 @@
         <option value="$PROJECT_DIR$/views/Components/scripts.ejs" />
         <option value="$PROJECT_DIR$/routes/testtable.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/userEdit.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/userAdd.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -301,17 +302,18 @@
       <workItem from="1548357615872" duration="156000" />
       <workItem from="1548373638802" duration="2455000" />
       <workItem from="1548437198739" duration="122000" />
-      <workItem from="1548536061453" duration="5023000" />
+      <workItem from="1548536061453" duration="5594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49699000" />
+    <option name="totallyTimeSpent" value="50270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1567" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26778784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778784" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -319,7 +321,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32915717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32915717" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -667,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -684,17 +679,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="418">
+          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userAdd.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="242" column="83" selection-start-line="242" selection-start-column="83" selection-end-line="242" selection-end-column="83" />
+        <state relative-caret-position="330">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
