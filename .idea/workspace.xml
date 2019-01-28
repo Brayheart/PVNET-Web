@@ -144,6 +144,7 @@
       <find>SearchInstru</find>
       <find>useradd</find>
       <find>count</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
