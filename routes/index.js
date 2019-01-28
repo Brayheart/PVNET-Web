@@ -56,7 +56,7 @@ router.get('/InstructorSearch', function(req, res, next) {
         var data = rows;
         console.log(user);
         // use index.ejs
-        res.render('SearchIns', { title: 'Test Table', data: data, user: user });
+        res.render('SearchInstructor', { title: 'Test Table', data: data, user: user });
 
     });
 
