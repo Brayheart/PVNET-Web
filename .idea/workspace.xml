@@ -138,6 +138,8 @@
       <find>instructor</find>
       <find>useradd</find>
       <find>sea</find>
+      <find>SearchInstru</find>
+      <find>SearchInstructor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">

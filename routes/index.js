@@ -40,26 +40,27 @@ router.post('/InstructorSearch', function(req, res, next) {
         res.redirect('/InstructorSearch');
     });
 });
-// router.get('/InstructorSearch', function(req, res, next) {
-//
-//     var db = req.con;
-//     var data = "";
-//
-//     var user = req.body.Instructor;
-//     console.log("this is get request");
-//
-//
-//     db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
-//         if (err) {
-//             console.log(err);
-//         }
-//         var data = rows;
-//         // use index.ejs
-//         res.render('SearchIns', { title: 'Test Table', data: data, user: user });
-//
-//     });
-//
-// });
+router.get('/InstructorSearch', function(req, res, next) {
+
+    // var db = req.con;
+    // var data = "";
+    //
+    // var user = req.body.Instructor;
+    // console.log("this is get request");
+    //
+    //
+    // db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
+    //     if (err) {
+    //         console.log(err);
+    //     }
+    //     var data = rows;
+    //     // use index.ejs
+    //     res.render('SearchIns', { title: 'Test Table', data: data, user: user });
+    //
+    // });
+    var data = req.param('Instructor');
+    console.log(data);
+});
 
 router.get('/add', function(req, res, next) {
 
