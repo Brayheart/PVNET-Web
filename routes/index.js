@@ -31,7 +31,7 @@ router.param('Instructor', function(req, res,next,Instructor){
     db.query("SELECT * FROM  SummerClasses WHERE Instructor = ?", Instructor, function(err, rows) {
         if(err) {
             console.log(err);
-            res.redirect('/');
+            res.redirect('/SearchIns');
         }else{
             next();
         }
