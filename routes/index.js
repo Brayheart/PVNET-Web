@@ -1,20 +1,20 @@
 var express = require('express');
 var router = express.Router();
 /* GET home page. */
-router.get('/', function(req, res, next){
-    res.render('index', {title:'login'});
-});
+// router.get('/', function(req, res, next){
+//     res.render('index', {title:'login'});
+// });
+//
+// router.param('First', function(req, res, next, First){
+//     var key = 'pvnet';
+//     if(key==First){
+//         next();
+//     }else{
+//         alert('error');
+//     }
+// });
 
-router.param('First', function(req, res, next, First){
-    var key = 'pvnet';
-    if(key==First){
-        next();
-    }else{
-        alert('error');
-    }
-});
-
-router.get('/ClassesDisplay', function(req, res, next) {
+router.get('/', function(req, res, next) {
 
     var db = req.con;
     var data = "";
@@ -33,7 +33,7 @@ router.get('/ClassesDisplay', function(req, res, next) {
         var data = rows;
         console.log(user);
         // use index.ejs
-        res.render('ClassesDisplay', { title: 'Test Table', data: data, user: user });
+        res.render('index', { title: 'Test Table', data: data, user: user });
 
     });
 
