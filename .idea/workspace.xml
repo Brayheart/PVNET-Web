@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -37,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="395" selection-start-line="395" selection-end-line="395" />
+            <state relative-caret-position="163">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="7" />
               <folding>
                 <marker date="1548702798696" expanded="true" signature="0:1761" ph="..." />
               </folding>
@@ -67,8 +68,8 @@
       <file leaf-file-name="ClassesDisplay.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/ClassesDisplay.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="32" column="87" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="87" />
+            <state relative-caret-position="347">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -318,12 +319,12 @@
       <workItem from="1548631916156" duration="3289000" />
       <workItem from="1548699208348" duration="35000" />
       <workItem from="1548700467498" duration="346000" />
-      <workItem from="1548701458831" duration="2251000" />
+      <workItem from="1548701458831" duration="2511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63125000" />
+    <option name="totallyTimeSpent" value="63385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1567" height="975" extended-state="0" />
@@ -675,27 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="395" selection-start-line="395" selection-end-line="395" />
-          <folding>
-            <marker date="1548702798696" expanded="true" signature="0:1761" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/SearchIns.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/ClassesDisplay.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="32" column="87" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="87" />
         </state>
       </provider>
     </entry>
@@ -713,10 +697,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1548702798696" expanded="true" signature="0:1761" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ClassesDisplay.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
