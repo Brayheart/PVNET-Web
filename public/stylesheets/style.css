@@ -110,3 +110,286 @@ a:hover {
   color: #f00;
   font-size: 12px;
 }
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity:1;
+}
+
+.container{
+  position: absolute;
+  width: 45%;
+  height: 80%;
+  background: -webkit-linear-gradient(-135deg, #8dc8a6, #05d00c);
+  background: -o-linear-gradient(-135deg, #8dc8a6, #05d00c);
+  background: -moz-linear-gradient(-135deg, #8dc8a6, #05d00c);
+  background: linear-gradient(-135deg, #8dc8a6, #05d00c);
+  opacity:0.88;
+  border-radius: 10%;
+  margin:5% 27.5% 5% 27.5%;
+}
+
+.image-container{
+  position: absolute;
+  width:25%;
+  height:24%;
+  margin:10% 37.5% 7% 37.5%;
+  opacity:1;
+}
+.round-image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.form-container{
+  position:absolute;
+
+  width: 60%;
+  height: 50%;
+  margin: 40% 20% 10% 20%;
+}
+
+.form{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrap-input100 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 1px;
+
+
+}
+.textHolder{
+  width:100%;
+  margin-top:1%;
+  margin-button:10%;
+}
+.input100{
+  font-size: 20px;
+  border:0.5px solid #aaffb3;
+  border-bottom:4px;
+  border-bottom-color:black;
+  line-height: 2.5;
+  color: #9fdfa2;
+  display:block;
+  width: 100%;
+  /*
+  background: -webkit-linear-gradient(-135deg, #1e721f, #05d00c);
+  background: -o-linear-gradient(-135deg, #1e721f, #05d00c);
+  background: -moz-linear-gradient(-135deg, #1e721f, #05d00c);
+  background: linear-gradient(-135deg, #1e721f, #05d00c);
+  */
+  background: -webkit-linear-gradient(-135deg, #ff8737, #482ed0);
+  background: -o-linear-gradient(-135deg, #ff8737, #482ed0);
+  background: -moz-linear-gradient(-135deg, #ff8737, #482ed0);
+  background: linear-gradient(-135deg, #ff8737, #482ed0);
+  height: 60px;
+  padding: 0 0px 0 0;
+  font-family:"Courier New", Courier, monospace;
+  opacity:1
+}
+input,
+input::-webkit-input-placeholder {
+  color: #9fdfa2;
+  left:10%;
+  transition: 0.2s ease-out;
+}
+.focus-input100 {
+  display: block;
+  position: absolute;
+  outline-width: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(35, 22, 184, 0.8);
+}
+
+.input100:focus + .focus-input100 {
+  outline-width: 0;
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+.symbol-input100 {
+  font-size: 15px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #666666;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100 + .symbol-input100 {
+  color: #57b846;
+  padding-left: 28px;
+}
+
+select#soflow, select#soflow-color {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #000000;
+  font-weight: 400;
+  font-size: inherit;
+  margin: 2px 0px 1px 0px;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+select#soflow-color {
+  color: #275a33;
+  background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(-135deg, #ff8737, #2c92ff);;
+  background-color: #779126;
+
+  -moz-border-radius: 20px;
+  font-family:"Courier New", Courier, monospace;
+  padding-left: 15px;
+}
+
+.container-login100-form-btn {
+
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.login100-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 0;
+  color: #fff;
+  text-transform: uppercase;
+
+
+  width: 80%;
+  height: 35px;
+  border-radius: 0px;
+  background: -webkit-linear-gradient(-135deg, #ff8737, #482ed0, #170aff);
+  background: -o-linear-gradient(-135deg, #ff8737, #482ed0, #170aff);
+  background: -moz-linear-gradient(-135deg, #ff8737, #482ed0, #170aff);
+  background: linear-gradient(-135deg, #ff8737, #482ed0, #170aff);
+
+  border:none;
+  /*
+  -webkit-animation: rainbow 2s ease infinite;
+  -z-animation: rainbow 2s ease infinite;
+  -o-animation: rainbow 2s ease infinite;
+  animation: rainbow 2s ease infinite;
+  */
+}
+
+
+
+
+.login100-form-btn-text{
+  font-family: "Courier New", Courier, monospace;;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  opacity:1;
+}
+
+.login100-form-btn:hover {
+  /*
+  background: #333333;
+  opacity:0.8;
+  */
+  background: linear-gradient(124deg, #dd00f3, #e893e2, #84e887, #35e866, #2de840, #e80ab9, #e885e1, #aae8b4, #57ff63);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 5s ease infinite;
+  -z-animation: rainbow 5s ease infinite;
+  -o-animation: rainbow 5s ease infinite;
+  animation: rainbow 5s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+
+.buttoms{
+
+  margin:10% 0%;
+  width:100%;
+}

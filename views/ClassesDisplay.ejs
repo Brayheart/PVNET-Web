@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script>
+        function Edit(id) {
+            window.location.href = "/userEdit?Class_ID=" + id;
+        }
+
+        function Delete(id) {
+            var rs = confirm('Confirm to delete?');
+            if (rs) {
+                window.location.href = "/userDelete?Class_ID=" + id;
+            }
+        }
+
+        function Search(userid) {
+
+            window.location.href = "/InstructorSearch?Instructor=" + userid;
+        }
+
+    </script>
+</head>
+
+<body>
+<h1>Classes - List</h1>
+<form name="SearchForm" action="InstructorSearch" method="post" accept-charset="utf-8">
+    <div class="search">
+        <label>Instructor：</label>
+        <input type="text" name="Instructor"<%=user%>  placeholder="input the instructor">
+        <input type="button" name="sSearch" value="Search" class="btn" onclick="Search(getElementsByName('Instructor')[0].value)">
+    </div>
+</form>
+<div class="control">
+    <input class="btn" type='submit' value='Add' onclick="javascript: location.href='add'">
+</div>
+<table class="table" style="width:100%">
+    <tr>
+        <th>Row_Number</th>
+        <th>Class_ID</th>
+        <th>Class_Name</th>
+        <th>Department</th>
+        <th>Class_Number</th>
+        <th>Class_Section</th>
+        <th>Activate</th>
+        <th>Instructor</th>
+        <th>Internal_Notes</th>
+        <th>Class_Description</th>
+        <th>Additional_Info</th>
+        <th>Prerequisite</th>
+        <th>Start_Week</th>
+        <th>End_Week</th>
+        <th>Age_Start</th>
+        <th>Age_End</th>
+        <th>Consumables_Fee</th>
+        <th>Hourly_Fee</th>
+        <th>Registration_Fee</th>
+        <th>Price_Included_For_Interns</th>
+        <th>Intern_Only</th>
+        <th>Field_Trip</th>
+        <th>Field_Trip_Wish_List</th>
+        <th>Class</th>
+        <th>Workshop</th>
+        <th>GroupBased</th>
+        <th>Seasonal_Classification</th>
+        <th>No_Weeks</th>
+        <th>M</th>
+        <th>T</th>
+        <th>W</th>
+        <th>TH</th>
+        <th>F</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Hrs_Per_Class</th>
+        <th>Mtgs_Per_Wk</th>
+        <th>Total_Meetings</th>
+        <th>Total_Class_Time_Hrs</th>
+        <th>Start_Time</th>
+        <th>End_Time</th>
+        <th>AREA</th>
+        <th>IMG_1</th>
+        <th>IMG_2</th>
+        <th>IMG_3</th>
+        <th>EXT_LINK_1</th>
+        <th>EXT_LINK_2</th>
+        <th>EXT_LINK_3</th>
+        <th>UND_1</th>
+        <th>UND_2</th>
+        <th>UND_3</th>
+        <th>UND_4</th>
+        <th>UND_5</th>
+        <th>UND_6</th>
+        <th>UND_7</th>
+        <th>UND_8</th>
+        <th>UND_9</th>
+        <th>UND_10</th>
+        <th></th>
+    </tr>
+    <% for ( var i = 0 ; i < data.length ; i++){ %>
+    <tr>
+        <td><%=(i+1)%></td>
+        <td><%=data[i].Class_ID%></td>
+        <td><%=data[i].Class_Name%></td>
+        <td><%=data[i].Department%></td>
+        <td><%=data[i].Class_Number%></td>
+        <td><%=data[i].Class_Section%></td>
+        <td><%=data[i].Activate%></td>
+        <td><%=data[i].Instructor%></td>
+        <td><%=data[i].Internal_Notes%></td>
+        <td><%=data[i].Class_Description%></td>
+        <td><%=data[i].Additional_Info%></td>
+        <td><%=data[i].Prerequisite%></td>
+        <td><%=data[i].Start_Week%></td>
+        <td><%=data[i].End_Week%></td>
+        <td><%=data[i].Age_Start%></td>
+        <td><%=data[i].Age_End%></td>
+        <td><%=data[i].Consummables_Fee%></td>
+        <td><%=data[i].Hourly_Fee%></td>
+        <td><%=data[i].Registration_Fee%></td>
+        <td><%=data[i].Price_Included_For_Interns%></td>
+        <td><%=data[i].Intern_Only%></td>
+        <td><%=data[i].Field_Trip%></td>
+        <td><%=data[i].Field_Trip_Wish_List%></td>
+        <td><%=data[i].Class%></td>
+        <td><%=data[i].Workshop%></td>
+        <td><%=data[i].GroupBased%></td>
+        <td><%=data[i].Seasonal_Classification%></td>
+        <td><%=data[i].No_Weeks%></td>
+        <td><%=data[i].M%></td>
+        <td><%=data[i].T%></td>
+        <td><%=data[i].W%></td>
+        <td><%=data[i].TH%></td>
+        <td><%=data[i].F%></td>
+        <td><%=data[i].Sat%></td>
+        <td><%=data[i].Sun%></td>
+        <td><%=data[i].Hrs_Per_Class%></td>
+        <td><%=data[i].Mtgs_Per_Wk%></td>
+        <td><%=data[i].Total_Meetings%></td>
+        <td><%=data[i].Total_Class_Time_Hrs%></td>
+        <td><%=data[i].Start_Time%></td>
+        <td><%=data[i].End_Time%></td>
+        <td><%=data[i].AREA%></td>
+        <td><%=data[i].IMG_1%></td>
+        <td><%=data[i].IMG_2%></td>
+        <td><%=data[i].IMG_3%></td>
+        <td><%=data[i].EXT_LINK_1%></td>
+        <td><%=data[i].EXT_LINK_2%></td>
+        <td><%=data[i].EXT_LINK_3%></td>
+        <td><%=data[i].UND_1%></td>
+        <td><%=data[i].UND_2%></td>
+        <td><%=data[i].UND_3%></td>
+        <td><%=data[i].UND_4%></td>
+        <td><%=data[i].UND_5%></td>
+        <td><%=data[i].UND_6%></td>
+        <td><%=data[i].UND_7%></td>
+        <td><%=data[i].UND_8%></td>
+        <td><%=data[i].UND_9%></td>
+        <td><%=data[i].UND_10%></td>
+
+        <td>
+            <input type="button" name="edit" value="Edit" class="btn" onclick="Edit('<%= data[i].Class_ID  %>');" />
+            <input type="button" name="delete" value="Delete" class="btn" onclick="Delete('<%= data[i].Class_ID  %>');" />
+        </td>
+    </tr>
+    <% } %>
+</table>
+</body>
+@ Made with PVNet
+</html>
