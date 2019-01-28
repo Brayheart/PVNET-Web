@@ -32,7 +32,7 @@ router.post('/InstructorSearch', function(req, res, next) {
 
     // check userid exist
     var userid = req.body.Instructor;
-
+    console.log(userid);
     var qur = db.query('SELECT * FROM SummerClasses WHERE Instructor = ?', userid, function(err, rows) {
         if (err) {
             console.log(err);
@@ -46,7 +46,7 @@ router.get('/InstructorSearch', function(req, res, next) {
     var data = "";
 
     var user = req.body.Instructor;
-    console.log(user);
+    console.log("this is get request");
 
 
     db.query("SELECT * FROM  SummerClasses WHERE Instructor = 'Doug';", user, function(err, rows) {
@@ -54,7 +54,6 @@ router.get('/InstructorSearch', function(req, res, next) {
             console.log(err);
         }
         var data = rows;
-        console.log(user);
         // use index.ejs
         res.render('SearchIns', { title: 'Test Table', data: data, user: user });
 
