@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8090c53c-5498-4c22-be2a-d5e0b08b45b5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="452">
               <caret line="32" column="48" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="48" />
             </state>
           </provider>
@@ -55,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="378">
+              <caret line="39" column="39" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -94,8 +92,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="402">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -155,13 +153,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/Components/scripts.ejs" />
         <option value="$PROJECT_DIR$/routes/testtable.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/SearchIns.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/userAdd.ejs" />
         <option value="$PROJECT_DIR$/views/userEdit.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -308,12 +306,12 @@
       <workItem from="1548437198739" duration="122000" />
       <workItem from="1548536061453" duration="11420000" />
       <workItem from="1548629010300" duration="1108000" />
-      <workItem from="1548631916156" duration="888000" />
+      <workItem from="1548631916156" duration="1115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58092000" />
+    <option name="totallyTimeSpent" value="58319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="23" width="1567" height="975" extended-state="0" />
@@ -685,24 +683,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="402">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="378">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
