@@ -26,20 +26,18 @@ router.get('/', function(req, res, next) {
 
 });
 
-router.post('/InstructorSearch', function(req, res, next) {
-
-    var db = req.con;
-
-    // check userid exist
-    var userid = req.body.Instructor;
-    console.log(userid);
-    var qur = db.query('SELECT * FROM SummerClasses WHERE Instructor = ?', userid, function(err, rows) {
-        if (err) {
+router.param('Instructor', function(req, res,next,Instructor){
+     var db = req.con;
+    db.query("SELECT * FROM  SummerClasses WHERE Instructor = ?", Instructor, function(err, rows) {
+        if(err) {
             console.log(err);
+            res.redirect('/');
+        }else{
+            next();
         }
-        res.redirect('/InstructorSearch');
     });
-});
+
+    });
 router.get('/InstructorSearch', function(req, res, next) {
 
     var db = req.con;
@@ -58,8 +56,6 @@ router.get('/InstructorSearch', function(req, res, next) {
         res.render('SearchIns', { title: 'Test Table', data: data, user: user });
 
     });
-    var data = req.param('Instructor');
-    console.log(data);
 });
 
 router.get('/add', function(req, res, next) {
