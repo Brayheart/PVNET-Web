@@ -21,7 +21,16 @@
     <img src="/images/pvnet.jpg" alt="Avatar" class="round-image">
   </div>
   <div class="form-container">
-    <%- include Components/Login.ejs %>
+    <form class="form validate-form" id="info">
+      <div class="textHolder">
+        <div class="wrap-input100 validate-input" data-validate = "Firstname is required">
+          <input class="input100" type="text" name="First" placeholder="FirstName">
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+
+          </span>
+        </div>
+    </form>
     <div class="buttoms">
       <div class="container-login100-form-btn">
         <button class="login100-form-btn" form = "info" value = "login" onclick="inputUser()">
