@@ -145,6 +145,7 @@
       <find>SearchInstru</find>
       <find>useradd</find>
       <find>count</find>
+      <find>search</find>
       <find>form</find>
     </findStrings>
   </component>
