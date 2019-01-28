@@ -26,7 +26,7 @@ router.get('/', function(req, res, next) {
 
 });
 
-router.post('/SearchInstructor', function(req, res, next) {
+router.post('/InstructorSearch', function(req, res, next) {
 
     var db = req.con;
 
